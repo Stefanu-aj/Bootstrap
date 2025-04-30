@@ -1,0 +1,26 @@
+.logo {
+  width: 100px;
+}
+.cities {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.CITY{
+    
+}
+.our-cities-text{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .cities {
+        flex-direction: column;
+    }
+}
